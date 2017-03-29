@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/experiments"
+            android:icon="@drawable/experiment"
+            android:title="Experiments" />
+        <item
+            android:id="@+id/control"
+            android:icon="@drawable/ic_action_name"
+            android:title="Control" />
+        <item
+            android:id="@+id/advance_control"
+            android:icon="@drawable/advance"
+            android:title="Advance Control" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
