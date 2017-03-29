@@ -61,7 +61,7 @@ public class analog_input_source {
         {
             //polynomial related functions
         }
-        //volt_to_code10,12 + polynomial
+        //polynomial
     }
 
 
